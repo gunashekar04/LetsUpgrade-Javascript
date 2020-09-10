@@ -1,0 +1,13 @@
+.btn{
+    display: inline-block;
+    color: azure;
+    background-color: black;
+    margin: 20px;
+}
+
+#image{
+    margin: 20px;
+    display: block;
+    height: 690px;
+    width: 690px;
+}
