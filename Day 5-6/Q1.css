@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    /* font-family: calibri; */
+}
+
+th,
+td {
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+.search{
+    margin-top: 20px;
+    margin-left: 38%;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.data{
+    background-color: blanchedalmond;
+    margin: 5%;
+    padding: 20px;
+    height: 550px;
+}
+

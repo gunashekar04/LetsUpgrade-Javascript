@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q2.css">
+    <title>Bus Assignment</title>
+</head>
+<body>
+    <div class="data">
+        <h2>Bus Details</h2>
+        <div class="form">
+            <form onsubmit="addbus(event)">
+              <input type="text" required placeholder="Name" id="name" />
+              <input type="text" required placeholder="Source" id="source"/>
+              <input type="text" required placeholder="Destination" id="destination" />
+              <input type="text" required placeholder="Number" id="num" />
+              <input type="number" required placeholder="Passenger Capacity" id="capacity" />
+              <button type="submit">Add Bus</button>
+            </form>
+        </div>
+        <form class="search">
+            <input type="text" placeholder="Search Source" id="Searchsource" onkeyup="SearchSource()"/>
+            <input type="text" placeholder="Search Destination" id="Searchdest" onkeyup="SearchDestination()"/>
+        </form>
+        <table border="1" class="table" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Name</th>
+                    <th>Source</th>
+                    <th>Destination</th>
+                    <th>Number</th>
+                    <th>Passenger Capacity</th>
+                </tr>
+            </thead>
+            <tbody class="list">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="Q2.js"></script>
+</body>
+</html>
